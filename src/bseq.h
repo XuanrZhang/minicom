@@ -1,3 +1,9 @@
+/* 2/4/2019
+In this file: define two struct vailbles: bseq_file_t (="struct bseq_file_s") and bseq1_t, which stores sequence details.
+              define five functions: 
+	      the implement of the functions are in the bseq.c file.
+*/
+
 #ifndef MM_BSEQ_H
 #define MM_BSEQ_H
 
@@ -11,7 +17,7 @@ typedef struct {
 	int rid;//, n_num, m_m, *pos_n;//rid: index of reads; n_num: number of N char; m_m: array size of pos_n; pos_n: store positon of N
 	// uint32_v n_pos;
 	char *seq;
-	void *n_pos;
+	void *n_pos;//
 	// void *p;
 } bseq1_t;
 
